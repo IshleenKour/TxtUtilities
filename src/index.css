@@ -14,3 +14,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media only screen and (min-width: 375px) and (max-width:980px){
+  .allButtons{
+      width: 100%;            /* Full width buttons on small screens */
+    font-size: 1.2rem;      /* Slightly larger text for readability */
+    margin: 5px 0;          /* Vertical spacing */
+    padding: 12px 0;        /* Increased padding top and bottom */
+    display: block;    
+    margin-bottom: 10px;
+  }
+}
