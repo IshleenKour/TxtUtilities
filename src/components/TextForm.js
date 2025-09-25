@@ -71,7 +71,7 @@ console.log("Clear was Clicked ");
             <div className="contaienr my-3" style={{color: props.mode==='dark'?'white':'#042743'}}> 
                 <h2>Your Text Summary</h2>
                 <ul>
-                    <li>{text.trim().split(/\s+/).filter(word => word.length > 0).length} words and {text.replace(/\s/g, '').length} characters and {(text.match(/ /g) || []).length} spaces used </li>
+                    <li>{text.trim().split(/\s+/).filter(word => word.length > 0).length} words and {text.replace(/\s/g, '').length} characters and {(text.match(/ /g) || []).length} space used </li>
                     <li>{0.008 * text.trim().split(/\s+/).filter(word => word.length > 0).length} Minutes read</li>
                 </ul>
                 <h2>Result</h2>
