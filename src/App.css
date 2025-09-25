@@ -11,5 +11,6 @@
     margin: 5px 0;          /* Vertical spacing */
     padding: 12px 0;        /* Increased padding top and bottom */
     display: block;    
+    margin-bottom: 10px
   }
 }
