@@ -59,12 +59,12 @@ console.log("Clear was Clicked ");
             <div className="mb-3">
             <textarea className="form-control" onChange ={handleOnChange} value={text}id="myBox" rows="8" style={{backgroundColor:props.mode==='dark'?'#042743':'white', color:props.mode==='dark'?'white':'#042743'}}></textarea>
             </div> {/*one curly brace is for writing js another is for object in js */}
-            <button className="btn btn-primary mx-1" onClick={handleUpClick}>Convert to Uppercase</button>
-            <button className="btn btn-primary mx-1" onClick={handleLowClick}>Convert to Lowercase</button>
-            <button className="btn btn-primary mx-1" onClick={handleSentenceCase}>Convert to Sentencecase</button>
-            <button className="btn btn-primary mx-1" onClick={handleExtraSpaces}>Clear Extra Spaces</button>
-            <button className="btn btn-primary mx-1" onClick={handleCopy}>Copy Text</button>
-            <button className="btn btn-primary mx-1" onClick={handleClearClick}>Clear
+            <button className="btn btn-primary my-2 my-sm-0 mx-1" onClick={handleUpClick}>Convert to Uppercase</button>
+            <button className="btn btn-primary my-2 my-sm-0 mx-1" onClick={handleLowClick}>Convert to Lowercase</button>
+            <button className="btn btn-primary my-2 my-sm-0 mx-1" onClick={handleSentenceCase}>Convert to Sentencecase</button>
+            <button className="btn btn-primary my-2 my-sm-0 mx-1" onClick={handleExtraSpaces}>Clear Extra Spaces</button>
+            <button className="btn btn-primary my-2 my-sm-0 mx-1" onClick={handleCopy}>Copy Text</button>
+            <button className="btn btn-primary my-2 my-sm-0 mx-1" onClick={handleClearClick}>Clear
             </button>
 
             <div className="contaienr my-3" style={{color: props.mode==='dark'?'white':'#042743'}}> 
